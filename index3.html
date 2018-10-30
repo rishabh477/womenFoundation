@@ -241,6 +241,12 @@
 		else{
 			document.getElementById('scrollTop').style.display='none';
 		}
+		if(document.documentElement.scrollTop > 50){
+			document.getElementById('fix').classList.add('affix');
+			}
+			else{
+			document.getElementById('fix').classList.remove('affix');
+			}
 	}
 	document.getElementById('scrollTop').addEventListener('click',scrollFunction);
 	function scrollFunction(){
