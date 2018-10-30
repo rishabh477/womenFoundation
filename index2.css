@@ -1,0 +1,260 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+.row{
+	margin: 0;
+}
+.bg .col .wrapper .row{
+	background-color: white;
+}
+.col-lg-4{
+	padding: 0;
+}
+.navbar{
+	margin: 0;
+}
+.logo{
+	margin-top:5px;
+	color:#cf0ca4;
+}
+.logo .fa{
+	font-size: 50px;
+    color: #cf0ca4;
+}
+.fa{
+	display: block;
+	margin-left: 10px;
+}
+.wrapper .navbar-right li{
+    background-color: #cf0ca4;
+    color: white;
+    cursor: pointer;
+}
+.wrapper .navbar-right li:hover{
+    background-color:#403a60;
+}
+.navbar-nav li{
+	padding: 20px 16px;
+}
+.color li{
+	color:#cf0ca4;
+}
+.color >li:hover,.color li .dropdown .btn:hover{
+	background-color:#cf0ca4;
+	color: black;
+}
+.color li .dropdown .btn{
+	border:none;
+	background: none;
+	padding:0;
+	padding-top: 12px;
+}
+.dropdown-menu{
+	padding: 0;
+	margin-top: 36px;
+}
+.dropdown-menu li{
+	padding: 16px 16px;
+    background-color:#cf0ca4 ;
+    border-bottom: 1px solid #0e0e77;
+}
+.color li:hover .dropdown-menu{
+	display: block;
+}
+.dropdown-menu li a{
+	color: white;
+}
+/*-----Background image section*/
+.bg{
+	background-image: url('3.jpg');
+	background-attachment: scroll;
+}
+.col{
+	background-image: linear-gradient(to right ,#5dd9ee,transparent, transparent);
+    height: 500px;
+    color: white;
+}
+.wrapper{
+	padding-top: 50px;
+} 
+.content{
+	width: 45%;
+    margin:50px 50px;
+    text-transform: capitalize;
+    background-color: #cf0ca4;
+    opacity: 0.7;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    min-height: 130px;
+    position: relative;
+}
+.content::after{
+	content: '';
+	display: block;
+	border-top: 143px solid #cf0ca4;
+    border-right: 75px solid transparent;
+    position: absolute;
+    right: -75px;
+    top: 0;
+}
+.content h1{
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+/*------mid section*/
+.middle li{
+    font-size: 28px;
+    border-bottom: 1px solid gray;
+}   
+.middle li a{	
+	color:black;
+	background-color: white;
+	padding: 30px 0px 30px 200px;
+}
+.middle li a .fa{
+	display: inline;
+    margin-right: 10px;
+}
+.middle li a:link{
+	background-color:none;
+	color: black;
+}
+.middle li a:visited,.middle li a:focus{
+	background-color: #1184b3;
+	color: white;
+}
+.middle li a:hover{
+	color:#1184b3;
+	background:none;
+}
+.middle li a:active{
+	background-color: #1184b3;
+	color: white;
+}
+.middle .row .col-lg-7{
+	background-color: whitesmoke;
+	text-align: left;
+    padding:30px 60px;
+    height: 410px;
+}
+.middle .row .col-lg-7 h3{
+	font-size: 34px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+.middle .row .col-lg-7 p{
+	font-size: 19px;
+}
+.middle .row .col-lg-7 .btn{
+	background-color:#403a60;
+    color: white;
+    border-radius: inherit;
+    padding: 12px 12px;
+}
+.middle .row .col-lg-7 .btn:hover{
+	background-color: #cf0ca4;
+}
+#statecard,#volunteercard,#requestcard,#eventcard{
+	display: none;
+}
+/*-----Did You Know section*/
+.lower h1{
+	font-size: 50px;
+}
+.clearfix{
+	overflow: auto;
+}
+.clearfix::after{
+	content: '';
+	clear: both;
+}
+.upfoot button{
+	padding: 15px 20px;
+    background-color: #087296;
+    color: white;
+    border: none;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+/*-----footer section------*/
+.footer{
+	padding:70px; 
+	background-color:#403a60;
+    color: white;
+}
+.header{
+	padding:10px 0;
+	position: relative;  
+}
+.header::after{
+	content: '';
+	display: block;
+	border-bottom: 1px solid #500abd;
+    box-shadow: 1px 1px 1px #3d0b8b;
+	margin-top: 18px;
+}
+.footer .col-lg-5{
+	padding-left: 140px;
+}
+.wrap{
+	padding-left: 135px;
+}
+.footlist{
+	list-style-type: none;
+}
+.footlist li{
+	padding-top: 10px;
+}
+.footlist li:hover{
+	color:#403a60;
+}
+input[type=submit]{
+	display: block;
+    margin-top: 10px;
+    padding: 13px 144px;
+    background-color: #cf0ca4;
+    border: none;
+}
+.footer input[type=email]{
+	padding: 12px 148px 12px 5px;
+    background-color: transparent;
+    border: 1px solid;
+    margin-top: 10px;
+}
+.address{
+	margin-top: 25px;
+}
+.foot{
+	margin-top: 10px;
+    width: 366px;
+    margin-left: 0px;
+    color: #cf0ca4;
+}
+.orange{
+	color: #cf0ca4;
+}
+.scrollbtn{
+	display: none;
+	padding: 16px 20px;
+	background-color:#cf0ca4;
+	font-size: 22px;
+	border-radius:25px;
+	border: none;
+    box-shadow: 1px 1px 1px grey;  
+	position: fixed;
+	display:block;
+	bottom: 10px;
+	right: 20px;
+	color: white;
+}
+.scrollbtn:hover,.scrollbtn:focus{
+background-color: #403a60;
+border:none;
+outline:none;
+}
+.scrollbtn .fa{
+margin: 0;
+}

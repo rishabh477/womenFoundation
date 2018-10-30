@@ -1,0 +1,311 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+}
+
+.row{
+	margin: 0;
+}
+.navbar-toggle{
+	background-color:#ce0058; 
+}
+.navbar-toggle .icon-bar{
+	background-color:white; 
+}
+.bg .col .wrapper .row{
+	background-color: white;
+}
+.col-lg-4{
+	padding: 0;
+}
+.navbar{
+	margin: 0;
+}
+.logo{
+	margin-top:5px;
+	color:#ce0058;
+}
+.logo .fa{
+	font-size: 50px;
+    color: #ce0058;
+}
+.fa{
+	display: block;
+	margin-left: 10px;
+}
+.wrapper .navbar-right li{
+    background-color: #ce0058;
+    color: white;
+    cursor: pointer;
+}
+.wrapper .navbar-right li:hover{
+    background-color:#403a60;
+}
+.navbar-nav li{
+	padding: 20px 16px;
+}
+.color li{
+	color:#ce0058;
+}
+.color >li:hover,.color li .dropdown .btn:hover{
+	background-color:#ce0058;
+	color: black;
+}
+.color li .dropdown .btn{
+	border:none;
+	background: none;
+	padding:0;
+	padding-top: 12px;
+}
+.dropdown-menu{
+	padding: 0;
+	margin-top: 36px;
+}
+.dropdown-menu li{
+	padding: 16px 16px;
+    background-color:#ce0058 ;
+    border-bottom: 1px solid #0e0e77;
+}
+.color li:hover .dropdown-menu{
+	display: block;
+}
+.dropdown-menu li a{
+	color: white;
+}
+/*-----Background image section*/
+.bg{
+	background-image: url('https://res.cloudinary.com/cloudraj/image/upload/v1540888464/3.jpg');
+	background-attachment: scroll;
+}
+.col{
+	background-image: linear-gradient(to right ,#5dd9ee,transparent, transparent);
+    min-height: 500px;
+    color: white;
+}
+.wrapper{
+	padding-top: 50px;
+} 
+.content{
+	width: 32%;
+    margin-left: 150px;
+    text-transform: capitalize;
+    color: #ce0058;
+}
+.content h1{
+	font-size: 40px;
+	margin-bottom: 25px;
+}
+/*-------------MISSION section--------*/
+.midupper{
+	text-align: center;
+    margin-top: 90px;
+}
+.midupper p{
+	font-size: 30px;
+    color: #7d7d7d;
+    width: 75%;
+    font-weight: 100;
+    margin-left: 200px;
+    font-family: monospace;
+}
+.mid{
+	padding: 50px 40px 50px 270px;
+}
+.mid .row .col-lg-4 .fa{
+	font-size: 100px;
+	cursor: pointer;
+}
+/*------Middle Section----*/
+.middle{
+	margin-left: 290px;
+    min-height: 400px;
+    margin-top: 70px;
+}
+.midcard{
+	float: left;
+    width: 20%;
+    margin-left: 10px;
+    margin-top: 160px;
+    color: #ce0058;
+    box-shadow: 1px 1px 1px gray; 
+}
+.midcard .upcard{
+	min-height: 80px;
+    text-align: center;
+    background-color: #ce0058;
+}
+.midcard:hover .upcard{
+	background-color: #403a60;
+	transition: 0.5s;
+}
+.midcard h1{
+	text-align: center;
+	font-weight: 900;
+}
+.midcard:hover h1{
+	color: #403a60;
+	transition: 0.5s;
+	transform: scale(1.4);
+}
+.midcard:hover p{
+	color: #403a60;
+}
+.midcard p{
+	margin-top: 25px;
+	text-align: center;
+}
+.last{
+	margin-top: 72px;	
+}
+.text{
+	height: 90px;
+    font-size: 28px;
+    font-weight: 900;
+    text-align: center;
+    padding: 15px;
+}
+.midcard:hover .text{
+	background-color:#403a60;
+	transition: 0.5s;
+}
+.box{
+	padding: 20px 0;
+	box-shadow: 1px 1px 1px grey;
+    background-color: lightgray;
+    width: 32%;
+    color: #050560;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+#check1{
+    margin: 0px 15px 0;
+    height: 28px;
+    width: 28px;
+}
+.box span{
+	display: inline-block;
+    font-size: 15px;
+    vertical-align: top;
+    padding-top: 5px;
+}
+/*Payment Design*/
+.form{
+	padding: 80px 0;
+	max-width: 56%;
+}
+#submit{
+	color: white;
+	padding: 13px 170px;
+}
+.line{
+	padding: 50px 290px 50px;
+}
+/*-----footer section------*/
+.footer{
+	padding:70px; 
+	background-color:#403a60;
+    color: white;
+}
+.header{
+	padding:10px 0;
+	position: relative;  
+}
+.header::after{
+	content: '';
+	display: block;
+	border-bottom: 1px solid #500abd;
+    box-shadow: 1px 1px 1px #3d0b8b;
+	margin-top: 18px;
+}
+.footer .col-lg-5{
+	padding-left: 140px;
+}
+.wrap{
+	padding-left: 135px;
+}
+.footlist{
+	list-style-type: none;
+}
+.footlist li{
+	padding-top: 10px;
+}
+.footlist li:hover{
+	color:#403a60;
+}
+input[type=submit]{
+	display: block;
+    margin-top: 10px;
+    padding: 13px 144px;
+    background-color: #ce0058;
+    border: none;
+}
+.footer input[type=email]{
+	padding: 12px 148px 12px 5px;
+    background-color: transparent;
+    border: 1px solid;
+    margin-top: 10px;
+}
+.address{
+	margin-top: 25px;
+}
+.foot{
+	margin-top: 10px;
+    width: 366px;
+    margin-left: 0px;
+}
+.orange{
+	color: #ce0058;
+}
+.scrollbtn{
+	display: none;
+	padding: 16px 20px;
+	background-color:#ce0058;
+	font-size: 22px;
+	border-radius:25px;
+	border: none;
+    box-shadow: 1px 1px 1px grey;  
+	position: fixed;
+	display:block;
+	bottom: 10px;
+	right: 20px;
+	color: white;
+}
+.scrollbtn:hover,.scrollbtn:focus{
+background-color: #403a60;
+border:none;
+outline:none;
+}
+.scrollbtn .fa{
+margin: 0;
+}
+@media screen and (max-width: 992px){
+	.midupper>p{margin-left: 0;width: auto;}
+	.wrapper{padding-top: 0;}
+	.bg{background-size: cover;background-repeat-y: no-repeat;}
+	.mid{padding:0;text-align: center;}
+	.wrapper .navbar-right li{padding: 10px;width: 100px;}
+	.nav>li{display: inline-block;}
+	.midsection .middle{margin-left: 0;}
+	.midsection .middle .midcard{margin-left: 20px;}
+	.box{width:100%;}
+	.content{margin-left: 0;width: 100%}
+	.line{padding:0px 100px 50px}
+	.wrap{padding-left: 0;}
+	.foot{width: 100%;}
+	.footer .col-lg-5{padding-left: 0;}
+}
+@media screen and (max-width:992px){
+	.navbar-collapse.collapse{
+		display: none !important;
+	}
+	.navbar-collapse.collapse.in {
+	    display: block!important;
+	    height: auto!important;
+	    padding-bottom: 0;
+	    overflow: visible!important;
+	}
+
+	.navbar-header .collapse, .navbar-toggle {
+	    display: block !important;
+	}
+}
