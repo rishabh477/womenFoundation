@@ -33,6 +33,14 @@
 	display: block;
 	margin-left: 10px;
 }
+.affix{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 1px 1px 1px gray;
+	z-index: 10 !important;
+}
 .wrapper .navbar-right li{
     background-color: #ce0058;
     color: white;
