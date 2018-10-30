@@ -46,7 +46,7 @@
     color: white;
     cursor: pointer;
 }
-.wrapper .navbar-right li:hover{
+.wrapper .navbar-right li a:hover,.wrapper .navbar-right li:hover{
     background-color:#403a60;
 }
 .navbar-nav li{
