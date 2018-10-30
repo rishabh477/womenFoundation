@@ -37,6 +37,14 @@
     color: white;
     cursor: pointer;
 }
+.affix{
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 1px 1px 1px gray;
+	z-index: 10 !important;
+}
 .wrapper .navbar-right li:hover{
     background-color:#403a60;
 }
