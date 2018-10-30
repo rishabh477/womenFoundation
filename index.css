@@ -46,6 +46,10 @@
     color: white;
     cursor: pointer;
 }
+.navbar-right li a{
+	padding: 0;
+	color: white;
+}
 .wrapper .navbar-right li a:hover,.wrapper .navbar-right li:hover{
     background-color:#403a60;
 }
