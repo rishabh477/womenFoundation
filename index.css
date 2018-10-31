@@ -53,10 +53,12 @@
 .wrapper .navbar-right li a:hover,.wrapper .navbar-right li:hover{
     background-color:#403a60;
 }
-.navbar-nav li{
-	padding: 20px 16px;
+.navbar-right li a{
+	padding: 20px 16px ;
+	color: white;
 }
 .color li{
+	padding: 20px 16px;
 	color:#ce0058;
 }
 .color >li:hover,.color li .dropdown .btn:hover{
