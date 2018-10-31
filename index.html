@@ -156,22 +156,25 @@
 </div>
 <!------Payment Section------>
 <div class="row">
+	<div class="row">
 	<div class="col-lg-6">
 		<div class="form">
 			<div class="form-group form-inline">
-				<input type="text" name="fname" class="form-control" placeholder="First Name">
-				<input type="text" name="lname" class="form-control" placeholder="Last Name" style="width:50%;">
+				<input type="text" name="fname" placeholder="First Name" class="halfwidth">
+				<input type="text" name="lname" placeholder="Last Name"
+				class="halfwidth">
 			</div>
 
 			<div class="form-group">
-				<input type="email" name="email" class="form-control" placeholder="Email Address">
+				<input type="email" name="email" placeholder="Email Address"
+				class="fullwidth">
 			</div>
 			<div class="form-group">
-				<input type="text" name="address" class="form-control" placeholder="Billing Address">
+				<input type="text" name="address" placeholder="Billing Address" class="fullwidth">
 			</div>
 			<div class="form-group form-inline">
-				<input type="text" name="city" class="form-control" placeholder="City">
-				<select class="form-control" style="width: 50%">
+				<input type="text" name="city" placeholder="City" class="halfwidth">
+				<select class="halfwidth">
 					<option>Choose State...</option>
 					<option>Madhya Pradesh</option>
 					<option>Himanchal Pradesh</option>
@@ -179,8 +182,8 @@
 				</select>
 			</div>
 			<div class="form-group form-inline">
-				<input type="number" name="postal" maxlength="5" class="form-control" placeholder="Postal code">
-				<select class="form-control" style="width: 50%">
+				<input type="number" name="postal" maxlength="5" placeholder="Postal code" class="halfwidth">
+				<select class="halfwidth">
 					<option>Select Country...</option>
 					<option>India</option>
 					<option>USA</option>
@@ -191,24 +194,25 @@
 				<label for="information">Additional Information</label>
 			</div>
 			<div class="form-group">
-				<textarea name="information" class="form-control" rows="5" cols="10"></textarea>
+				<textarea name="information" rows="5" cols="10" class="fullwidth"></textarea>
 			</div>
 		</div>
 	</div>
 	<div class="col-lg-6">
 		<div class="form">
 			<input type="checkbox" name="box" id="namecheck">Check here if the name on your card differs from the one provided above.
-			
-			<input type="text" name="name" placeholder="Name On Card" class="form-control" id="cardname" disabled><br/>
+			<br/><br/>
+			<input type="text" name="name" placeholder="Name On Card" id="cardname" class="fullwidth" disabled><br/><br/>
 			<div class="form-group">
-				<input type="number" class="form-control" name="num" placeholder="Card Number">
+				<input type="number" name="num" placeholder="Card Number"
+				class="fullwidth">
 			</div>
 			<div class="form-group form-inline">
 				<label for="expiry">Expiration:</label>
-				<input type="number" name="month" id="month" min="1" max="31" step="1" value="1" style="width:40px">
-				<input type="number" name="year" id="year" min="1950" max="2050" step="1" value="2018" style="width:50px">
+				<input type="number" name="month" id="month" min="1" max="31" step="1" value="1" style="width:60px">
+				<input type="number" name="year" id="year" min="1950" max="2050" step="1" value="2018" style="width:70px">
 				<input type="number" name="cvv" placeholder="CVV" maxlength="3" 
-				 style="width:50px" min="100" max="999">
+				 style="width:70px" min="100" max="999">
 			</div>
 			<input type="checkbox" name="box1">I’d like to receive news and updates from Ashoka<br/>
 			<input type="checkbox" name="box2">Make my donation anonymous.<br/>
@@ -219,6 +223,7 @@
 		</div>
 	</div>
 </div>		
+		
 <div class="line">
 		Would you prefer to donate by mail, stock, or other ways? Check out our<span class="orange"> Donation FAQ</span>. If you have additional questions, contact 
 		<span class="orange">invest@ashoka.org</span>
