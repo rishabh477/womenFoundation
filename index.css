@@ -93,10 +93,11 @@
 .bg{
 	background-image: url('https://res.cloudinary.com/cloudraj/image/upload/v1540888464/3.jpg');
 	background-attachment: scroll;
+	box-shadow:1px 1px 1px lightgrey;
 }
 .col{
 	background-image: linear-gradient(to right ,#5dd9ee,transparent, transparent);
-    min-height: 500px;
+    height: 500px;
     color: white;
 }
 .wrapper{
@@ -115,7 +116,7 @@
 /*-------------MISSION section--------*/
 .midupper{
 	text-align: center;
-    margin-top: 90px;
+    padding-top: 90px;
 }
 .midupper p{
 	font-size: 30px;
@@ -135,7 +136,7 @@
 .middle{
 	margin-left: 290px;
     min-height: 400px;
-    margin-top: 70px;
+    padding-top: 70px;
 }
 .midcard{
 	float: left;
