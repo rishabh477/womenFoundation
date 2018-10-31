@@ -50,6 +50,9 @@
 	padding: 0;
 	color: white;
 }
+.wrapper .navbar-right li a:visited{
+    background-color:#403a60;
+}
 .wrapper .navbar-right li a:hover,.wrapper .navbar-right li:hover{
     background-color:#403a60;
 }
