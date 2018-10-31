@@ -231,9 +231,16 @@
 	padding: 80px 0;
 	max-width: 56%;
 }
-.form-control{
-	width:97%;
+input[type=text],select{
+	padding:6px 10px;
+	border:1px solid;
 }
+textarea,input[type=email],input[type=number]{
+	padding: 6px 10px;
+	border:1px solid;
+}
+.halfwidth{width: 49%;}
+.fullwidth{width: 100%;}
 #submit{
 	color: white;
 	padding: 13px 170px;
