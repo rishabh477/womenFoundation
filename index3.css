@@ -137,7 +137,11 @@
 	display: inline;
     margin-right: 10px;
 }
-.middle li.active a:focus{
+.middle li.active a:link{	
+	color:white;
+	background-color:#1184b3; ; 
+}
+.middle .row .col-lg-5 .nav li.active a:visited,.middle li.active a:focus{
 	background-color:#1184b3;
 	color: white;
 }
