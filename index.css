@@ -133,6 +133,9 @@
 	cursor: pointer;
 }
 /*------Middle Section----*/
+.midsection{
+	padding-bottom:70px;
+}
 .middle{
 	margin-left: 290px;
     min-height: 400px;
@@ -193,7 +196,7 @@
     width: 32%;
     color: #050560;
     margin-top: 60px;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
 }
 #check1{
     margin: 0px 15px 0;
