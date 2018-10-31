@@ -226,7 +226,7 @@
 .header::after{
 	content: '';
 	display: block;
-	border-bottom: 1px solid #500abd;
+	border-bottom: 1px solid white;
     box-shadow: 1px 1px 1px #3d0b8b;
 	margin-top: 18px;
 }
