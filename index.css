@@ -75,20 +75,23 @@
 	padding:0;
 	padding-top: 12px;
 }
-.dropdown-menu{
-	padding: 0;
-	margin-top: 22px;
-}
 .dropdown-menu li{
+	padding: 0;
+}
+.dropdown-menu li a{
 	padding: 16px 16px;
     background-color:#ce0058 ;
     border-bottom: 1px solid #0e0e77;
 }
-.color li:hover .dropdown-menu{
-	display: block;
-}
 .dropdown-menu li a{
 	color: white;
+}
+.dropdown-menu li a:focus,.dropdown-menu li a:hover{
+	background-color: white;
+	color:#ce0058; 
+}
+.color li:hover .dropdown-menu{
+	display: block;
 }
 /*-----Background image section*/
 .bg{
